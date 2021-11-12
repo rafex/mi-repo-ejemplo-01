@@ -13,4 +13,8 @@ fs
 f
 dsf
 sfd
+<<<<<<< HEAD
 otra modificacioon
+=======
+holaholahola
+>>>>>>> 9877e48b7ee6c77447ca93a475fe51031fbaccd7

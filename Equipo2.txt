@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 
 
 
 Texto
 Texto
 Texto
+=======
+Continental Automotive
+Planta Tijera
+Guadalajara, Jalisco
+>>>>>>> ea179eb27e8c522dfb93fac0570f5628d17df85b

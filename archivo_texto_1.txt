@@ -1,3 +1,5 @@
 archivo_texto_1 linea 1
 archivo_texto_1 linea 2
 archivo_texto_1 linea 3
+muy bien
+adios

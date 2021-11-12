@@ -17,4 +17,9 @@ sfd
 otra modificacioon
 =======
 holaholahola
+<<<<<<< HEAD
 >>>>>>> 9877e48b7ee6c77447ca93a475fe51031fbaccd7
+=======
+LO LOGREEE!!
+JAJAJAJAJA SOY MALVADO!!!
+>>>>>>> 5783c4b345d0756d33cb7780e15bf4995c0fa74d

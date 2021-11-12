@@ -32,9 +32,15 @@ git restore <archivo>
 
 git restore --staged <archivos>
 
-# Como agregar todos los archivos en git
+# Como agregar TODOS los archivos en git
 
 git add .
+
+# Como agregar un archivo(s) en específico(s)
+
+git add NOMBRE_DEL_ARCHIVO
+
+git add NOMBRE_DEL_ARCHIVO2 NOMBRE_DEL_ARCHIVO2
 
 # Configuración de nombre y correo electronico
 

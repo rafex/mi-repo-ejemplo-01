@@ -14,6 +14,7 @@ fs
 f
 dsf
 sfd
+<<<<<<< HEAD
 
 
 
@@ -33,3 +34,8 @@ Dejen de hacer modificaciones
 Dejen de hacer modificaciones
 Dejen de hacer modificaciones
 jen de hacer modificaciones
+=======
+holaholahola
+LO LOGREEE!!
+JAJAJAJAJA SOY MALVADO!!!
+>>>>>>> 5783c4b345d0756d33cb7780e15bf4995c0fa74d

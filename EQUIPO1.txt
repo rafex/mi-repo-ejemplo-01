@@ -1,6 +1,12 @@
-
-
+<<<<<<< HEAD
 
 Hola Mundo
 Noviembre 11 2021
 07:16 pm
+
+
+=======
+esto es una prueba de conflicto
+que escribio Silvia Luevano
+para el archivo EQUIPO1.txt
+>>>>>>> 3e29d663df7adf7e6ab75286161ddc23eccad62a

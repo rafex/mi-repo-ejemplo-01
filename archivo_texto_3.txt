@@ -6,6 +6,7 @@ HI
 123
 456
 789
+
 hola
 sdklfjslkjdfs
 sdfsdfs
@@ -13,8 +14,36 @@ fs
 f
 dsf
 sfd
+<<<<<<< HEAD
 otra modificacioon
 holaholahola
 LO LOGREEE!!
 JAJAJAJAJA SOY MALVADO!!!
 
+=======
+<<<<<<< HEAD
+
+
+ya no quiero jugar
+
+Dejen de hacer modificaciones
+
+Dejen de hacer modificaciones
+
+Dejen de hacer modificaciones
+
+Dejen de hacer modificaciones
+Dejen de hacer modificaciones
+Dejen de hacer modificaciones
+Dejen de hacer modificaciones
+Dejen de hacer modificaciones
+Dejen de hacer modificaciones
+Dejen de hacer modificaciones
+Dejen de hacer modificaciones
+jen de hacer modificaciones
+=======
+holaholahola
+LO LOGREEE!!
+JAJAJAJAJA SOY MALVADO!!!
+>>>>>>> 5783c4b345d0756d33cb7780e15bf4995c0fa74d
+>>>>>>> 980545830c60a6a3185acbdc4a733ea35d21a5c3

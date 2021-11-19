@@ -1,5 +1,26 @@
-Los archivos de texto sin formato a menudo se crean con el formato de archivo de texto más básico, que toma la extensión ".txt". Estos archivos a menudo son creados y editados por el Bloc de notas, el editor de texto que se encuentra en todos los dispositivos Windows, o por otro editor de texto. Sin embargo, los archivos de texto se pueden abrir desde prácticamente cualquier documento o editor de texto, incluidas aplicaciones más potentes como Bloc de notas ++, Wordpad, Microsoft Office u OpenOffice.
-
-Otro lugar donde se puede encontrar texto sin formato son los formularios de entrada en sitios web y aplicaciones. Muchos sitios web de redes sociales, como Twitter e Instagram, le permiten publicar subtítulos y tweets solo como texto sin formato, aunque hay algunas excepciones, como hashtags y emojis. Por lo tanto, no se puede agregar ningún formato adicional a estos elementos. Se formatean automáticamente de acuerdo con los estándares de sitios web o aplicaciones. Los clientes de correo electrónico más antiguos a menudo también tienen modos de texto sin formato, que le permiten enviar mensajes de texto sin formato.
-
-
+A
+B
+C
+D
+E
+F
+G
+H
+I
+J
+K
+L
+M
+N
+O
+P
+Q
+R
+S
+T
+U
+V
+W
+X
+Y
+Z

@@ -1,3 +1,103 @@
+/* Ejemplo - aprenderaprogramar.com */
+
+/* Esta clase representa un  depósito cilíndrico donde se almacena aceite  */
+
+public class Deposito {    
+
+    //Campos de la clase
+    private float diametro;
+    private float altura;
+    private String idDeposito;
+
+    //Constructor sin parámetros auxiliar
+    public Deposito () { //Lo que hace es llamar al constructor con parámetros pasándole valores vacíos
+        this(0,0,"");            } //Cierre del constructor
+
+
+    //Constructor de la clase que pide los parámetros necesarios
+    public Deposito (float valor_diametro, float valor_altura, String valor_idDeposito) {
+        if (valor_diametro > 0 && valor_altura > 0) {            
+            diametro = valor_diametro;
+            altura = valor_altura;
+            idDeposito = valor_idDeposito;
+        } else {
+            diametro = 10;
+            altura = 5;
+            idDeposito = "000";
+            System.out.println ("Creado depósito con valores por defecto diametro 10 metros altura 5 metros id 000" );
+        }   } //Cierre del constructor
+
+    public void setValoresDeposito (String valor_idDeposito, float valor_diametro, float valor_altura) {
+        idDeposito = valor_idDeposito;
+        diametro = valor_diametro;
+        altura = valor_altura;
+        if (idDeposito !="" && valor_diametro > 0 && valor_altura > 0) {
+        } else {
+            System.out.println ("Valores no admisibles. No se han establecido valores para el depósito");
+            //Deposito (0.0f, 0.0f, ""); Esto no es posible. Un constructor no es un método y por tanto no podemos llamarlo
+            idDeposito = "";
+            diametro = 0;
+            altura = 0;
+        }     } //Cierre del método
+
+    public float getDiametro () { return diametro; } //Método de acceso
+    public float getAltura () { return altura; } //Método de acceso
+    public String getIdDeposito () { return idDeposito; } //Método de acceso
+    public float valorCapacidad () { //Método tipo función
+        float capacidad;
+        float pi = 3.1416f; //Si no incluimos la f el compilador considera que 3.1416 es double
+        capacidad = pi * (diametro/2) * (diametro/2) * altura;
+        return capacidad;
+    }    
+
+} //Cierre de la clase
+ <Test Number="200010" Name="Current_Protection" VarType="Y" Format="R6.3" Unit=" [DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="0.005" USL="0.500" />
+    <Test Number="200020" Name="Download_JTAG" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200025" Name="Enable STP-on-CAN" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200026" Name="Fetch Module Version" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200030" Name="Speed up JTAG bitrate" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200031" Name="fetch version of OS" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200040" Name="Download flash toolbox" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200041" Name="Fetch version of flash toolbox" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200050" Name="Erase entire chip" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200060" Name="Blank check entire chip" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200105" Name="Program HSM" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200125" Name="Program flash APPL1.bin" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200140" Name="Program DCF HSM CAP" VarType="y" Format="R6.3" Unit=" [DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200165" Name="Checking code flash HSM" VarType="s" Format="R6.2" Unit="  " DBStorage="W" Bin="32" Block="0" RetestCount="0" ClassCount="0" LSL="0.00" USL="0.00">
+      <Stimulis>
+        <Stimuli Number="1" Value="1" Format="I2" Name="String compare" TextValue="*" />
+      </Stimulis>
+    </Test>
+    <Test Number="200185" Name="Checking code flash APPL" VarType="s" Format="R6.2" Unit="  " DBStorage="W" Bin="32" Block="0" RetestCount="0" ClassCount="0" LSL="0.00" USL="0.00">
+      <Stimulis>
+        <Stimuli Number="1" Value="1" Format="I2" Name="String compare" TextValue="*" />
+      </Stimulis>
+    </Test>
+    <Test Number="200190" Name="Write ECU PN" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200195" Name="Write ECU DIAG" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200196" Name="Write HW EBOM PART NUMBER F122" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200210" Name="Write Manufacturing Data" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200211" Name="VEHICLE_MANUFACTURER_ECU_HARDWARE_NUMBER_F191" VarType="s" Format="R6.2" Unit="  " DBStorage="W" Bin="32" Block="0" RetestCount="0" ClassCount="0" LSL="0.00" USL="0.00">
+      <Stimulis>
+        <Stimuli Number="1" Value="1" Format="I2" Name="String compare" TextValue="*" />
+      </Stimulis>
+    </Test>
+    <Test Number="200212" Name="SUPPLIER_MANUFACTURER_ECU_HARDWARE_PART_NUMBER_F192" VarType="s" Format="R6.2" Unit="  " DBStorage="W" Bin="32" Block="0" RetestCount="0" ClassCount="0" LSL="0.00" USL="0.00">
+      <Stimulis>
+        <Stimuli Number="1" Value="1" Format="I2" Name="String compare" TextValue="*" />
+      </Stimulis>
+    </Test>
+    <Test Number="200213" Name="SUPPLIER_MANUFACTURER_ECU_HARDWARE_VERSION_NUMBER_F193" VarType="s" Format="R6.2" Unit="  " DBStorage="W" Bin="32" Block="0" RetestCount="0" ClassCount="0" LSL="0.00" USL="0.00">
+      <Stimulis>
+
+
+
+
+Los archivos de texto sin formato a menudo se crean con el formato de archivo de texto más básico, que toma la extensión ".txt". Estos archivos a menudo son creados y editados por el Bloc de notas, el editor de texto que se encuentra en todos los dispositivos Windows, o por otro editor de texto. Sin embargo, los archivos de texto se pueden abrir desde prácticamente cualquier documento o editor de texto, incluidas aplicaciones más potentes como Bloc de notas ++, Wordpad, Microsoft Office u OpenOffice.
+
+Otro lugar donde se puede encontrar texto sin formato son los formularios de entrada en sitios web y aplicaciones. Muchos sitios web de redes sociales, como Twitter e Instagram, le permiten publicar subtítulos y tweets solo como texto sin formato, aunque hay algunas excepciones, como hashtags y emojis. Por lo tanto, no se puede agregar ningún formato adicional a estos elementos. Se formatean automáticamente de acuerdo con los estándares de sitios web o aplicaciones. Los clientes de correo electrónico más antiguos a menudo también tienen modos de texto sin formato, que le permiten enviar mensajes de texto sin formato.
+
 A las cinco se cierra la barra del 33
 Pero Mario no sale hasta las seis
 Y si encima le toca hacer caja, despídete

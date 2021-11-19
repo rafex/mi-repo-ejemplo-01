@@ -1,0 +1,39 @@
+ <Test Number="200010" Name="Current_Protection" VarType="Y" Format="R6.3" Unit=" [DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="0.005" USL="0.500" />
+    <Test Number="200020" Name="Download_JTAG" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200025" Name="Enable STP-on-CAN" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200026" Name="Fetch Module Version" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200030" Name="Speed up JTAG bitrate" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200031" Name="fetch version of OS" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200040" Name="Download flash toolbox" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200041" Name="Fetch version of flash toolbox" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200050" Name="Erase entire chip" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200060" Name="Blank check entire chip" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200105" Name="Program HSM" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200125" Name="Program flash APPL1.bin" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200140" Name="Program DCF HSM CAP" VarType="y" Format="R6.3" Unit=" [DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200165" Name="Checking code flash HSM" VarType="s" Format="R6.2" Unit="  " DBStorage="W" Bin="32" Block="0" RetestCount="0" ClassCount="0" LSL="0.00" USL="0.00">
+      <Stimulis>
+        <Stimuli Number="1" Value="1" Format="I2" Name="String compare" TextValue="*" />
+      </Stimulis>
+    </Test>
+    <Test Number="200185" Name="Checking code flash APPL" VarType="s" Format="R6.2" Unit="  " DBStorage="W" Bin="32" Block="0" RetestCount="0" ClassCount="0" LSL="0.00" USL="0.00">
+      <Stimulis>
+        <Stimuli Number="1" Value="1" Format="I2" Name="String compare" TextValue="*" />
+      </Stimulis>
+    </Test>
+    <Test Number="200190" Name="Write ECU PN" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200195" Name="Write ECU DIAG" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200196" Name="Write HW EBOM PART NUMBER F122" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200210" Name="Write Manufacturing Data" VarType="Y" Format="R6.3" Unit="[DIG]" DBStorage="U" Bin="32" Block="0" RetestCount="0" ClassCount="10" LSL="160.000" USL="160.000" />
+    <Test Number="200211" Name="VEHICLE_MANUFACTURER_ECU_HARDWARE_NUMBER_F191" VarType="s" Format="R6.2" Unit="  " DBStorage="W" Bin="32" Block="0" RetestCount="0" ClassCount="0" LSL="0.00" USL="0.00">
+      <Stimulis>
+        <Stimuli Number="1" Value="1" Format="I2" Name="String compare" TextValue="*" />
+      </Stimulis>
+    </Test>
+    <Test Number="200212" Name="SUPPLIER_MANUFACTURER_ECU_HARDWARE_PART_NUMBER_F192" VarType="s" Format="R6.2" Unit="  " DBStorage="W" Bin="32" Block="0" RetestCount="0" ClassCount="0" LSL="0.00" USL="0.00">
+      <Stimulis>
+        <Stimuli Number="1" Value="1" Format="I2" Name="String compare" TextValue="*" />
+      </Stimulis>
+    </Test>
+    <Test Number="200213" Name="SUPPLIER_MANUFACTURER_ECU_HARDWARE_VERSION_NUMBER_F193" VarType="s" Format="R6.2" Unit="  " DBStorage="W" Bin="32" Block="0" RetestCount="0" ClassCount="0" LSL="0.00" USL="0.00">
+      <Stimulis>

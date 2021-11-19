@@ -1,0 +1,80 @@
+rafex
+/
+mi-repo-ejemplo-01
+Public
+1
+1
+0
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+ 6 branches
+ 0 tags
+This branch is 6 commits ahead, 5 commits behind main.
+Latest commit
+@uid85974
+uid85974 Merge branch 'equipo-4' of github.com:rafex/mi-repo-ejemplo-01 into e…
+…
+42e6ce3
+7 days ago
+Git stats
+ 37 commits
+Files
+Type
+Name
+Latest commit message
+Commit time
+ArchivoX.pdf
+Nuevo archivo
+7 days ago
+EQUIPO1.txt
+reparación de conflicto
+7 days ago
+EQUIPO3.txt
+Modificacion lineas
+7 days ago
+EQUIPO4.txt
+creando mi primer conflicto
+7 days ago
+Equipo2.txt
+Update Equipo2.txt
+7 days ago
+Equipo_Ghost
+practicando
+7 days ago
+LICENSE
+Initial commit
+28 days ago
+README.md
+Initial commit
+28 days ago
+Solano.PDF
+Practica con PDF
+7 days ago
+archivo1.pdf
+Revert "Cambio de archivo1 by Yoav"
+7 days ago
+archivo_texto_4.txt
+arreglando conflicto2
+7 days ago
+README.md
+mi-repo-ejemplo-01
+About
+No description, website, or topics provided.
+Topics
+Resources
+ Readme
+License
+ Unlicense License
+Releases
+No releases published
+Create a new release
+Packages
+No packages published
+Publish your first package

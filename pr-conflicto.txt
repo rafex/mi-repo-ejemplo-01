@@ -1,4 +1,3 @@
-
 /* Ejemplo - aprenderaprogramar.com */
 
 /* Esta clase representa un  depósito cilíndrico donde se almacena aceite  */
@@ -99,4 +98,88 @@ Los archivos de texto sin formato a menudo se crean con el formato de archivo de
 
 Otro lugar donde se puede encontrar texto sin formato son los formularios de entrada en sitios web y aplicaciones. Muchos sitios web de redes sociales, como Twitter e Instagram, le permiten publicar subtítulos y tweets solo como texto sin formato, aunque hay algunas excepciones, como hashtags y emojis. Por lo tanto, no se puede agregar ningún formato adicional a estos elementos. Se formatean automáticamente de acuerdo con los estándares de sitios web o aplicaciones. Los clientes de correo electrónico más antiguos a menudo también tienen modos de texto sin formato, que le permiten enviar mensajes de texto sin formato.
 
+A las cinco se cierra la barra del 33
+Pero Mario no sale hasta las seis
+Y si encima le toca hacer caja, despídete
+Casi siempre se le hace de día
+Mientras María ya se ha puesto en pie
+Ha hecho la casa, ha hecho hasta café
+Y le espera medio desnuda
+Mario llega cansado y saluda sin mucho afán
+Quiere cama pero otra variedad
+Y María se moja las canas en el café
+Magdalenas del sexo convexo
+Luego al trabajo en un gran almacén
+Cuando regresa no hay más que un somier
+Taciturno que usar por turnos
+Cruz de navajas por una mujer
+Brillos mortales despuntan al alba
+Sangres que tiñen de malva el amanecer
+Pero hoy como ha habido redada en 33
+Mario vuelve a las cinco menos diez
+Por su calle vacía, a lo lejos, solo se ve
+A unos novios comiéndose a besos
+El pobre Mario se quiere morir
+Cuando se acerca para descubrir
+Que es María con compañía
+Cruz de navajas por una mujer
+Brillos mortales despuntan al alba
+Sangres que tiñen de malva el amanecer
+Sobre Mario de bruces, tres cruces
+Una en la frente, la que más dolió
+Otra en el pecho, la que le mató
+Y otra miente en el noticiero
+Dos drogadictos en plena ansiedad
+Roban y matan a Mario Postigo
+Mientras su esposa es testigo desde el portal
+En vez de cruz de navajas por una mujer
+Brillos mortales despuntan al alba
+Sangres que tiñen de malva el amanecer
+
+$ git checkout PR-1
+Switched to branch 'PR-1'
+
+uids7031@GLLA762W MINGW64 ~/mi-repo-ejemplo-01 (PR-1)
+$ pwd
+/c/Users/uids7031/mi-repo-ejemplo-01
+
+uids7031@GLLA762W MINGW64 ~/mi-repo-ejemplo-01 (PR-1)
+$ ls -la
+total 13628
+drwxr-xr-x 1 uids7031 1049089        0 Nov 18 20:40 ./
+drwxr-xr-x 1 uids7031 1049089        0 Nov 18 20:41 ../
+drwxr-xr-x 1 uids7031 1049089        0 Nov 18 20:41 .git/
+-rw-r--r-- 1 uids7031 1049089   131838 Nov 18 18:59 ArchivoX.pdf
+-rw-r--r-- 1 uids7031 1049089      134 Nov 11 19:42 EQUIPO1.txt
+-rw-r--r-- 1 uids7031 1049089       99 Nov 11 20:06 EQUIPO3.txt
+-rw-r--r-- 1 uids7031 1049089      127 Nov 18 20:40 EQUIPO4.txt
+-rw-r--r-- 1 uids7031 1049089       82 Nov 11 20:06 Equipo2.txt
+-rw-r--r-- 1 uids7031 1049089       11 Nov 11 20:06 Equipo_Ghost
+-rw-r--r-- 1 uids7031 1049089     1235 Oct 28 21:30 LICENSE
+-rw-r--r-- 1 uids7031 1049089       20 Oct 28 21:30 README.md
+-rw-r--r-- 1 uids7031 1049089    40056 Nov 18 18:59 Solano.PDF
+-rw-r--r-- 1 uids7031 1049089       49 Nov 18 20:40 archivo-hola.txt
+-rw-r--r-- 1 uids7031 1049089     1195 Nov 18 19:09 archivo-nuevo.txt
+-rw-r--r-- 1 uids7031 1049089       73 Nov 18 20:40 archivo-otrarama.txt
+-rw-r--r-- 1 uids7031 1049089 13723305 Nov 18 18:59 archivo1.pdf
+-rw-r--r-- 1 uids7031 1049089       92 Nov 18 19:09 archivo_texto_1.txt
+-rw-r--r-- 1 uids7031 1049089       39 Nov 18 19:09 archivo_texto_2.txt
+-rw-r--r-- 1 uids7031 1049089      721 Nov 18 19:09 archivo_texto_3.txt
+-rw-r--r-- 1 uids7031 1049089       62 Nov 18 20:40 archivo_texto_4.txt
+-rw-r--r-- 1 uids7031 1049089     1821 Nov 18 19:09 comandos-basicos.md
+-rw-r--r-- 1 uids7031 1049089       20 Nov 18 20:40 sdf.txt
+
+uids7031@GLLA762W MINGW64 ~/mi-repo-ejemplo-01 (PR-1)
+$ git branch
+* PR-1
+  equipo-1
+  equipo-2
+  equipo-3
+  main
+
+uids7031@GLLA762W MINGW64 ~/mi-repo-ejemplo-01 (PR-1)
+$ vit pr-conficto.txt
+bash: vit: command not found
+
+uids7031@GLLA762W MINGW64 ~/mi-repo-ejemplo-01 (PR-1)
 

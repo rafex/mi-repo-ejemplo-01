@@ -1,0 +1,46 @@
+$ git checkout PR-1
+Switched to branch 'PR-1'
+
+uids7031@GLLA762W MINGW64 ~/mi-repo-ejemplo-01 (PR-1)
+$ pwd
+/c/Users/uids7031/mi-repo-ejemplo-01
+
+uids7031@GLLA762W MINGW64 ~/mi-repo-ejemplo-01 (PR-1)
+$ ls -la
+total 13628
+drwxr-xr-x 1 uids7031 1049089        0 Nov 18 20:40 ./
+drwxr-xr-x 1 uids7031 1049089        0 Nov 18 20:41 ../
+drwxr-xr-x 1 uids7031 1049089        0 Nov 18 20:41 .git/
+-rw-r--r-- 1 uids7031 1049089   131838 Nov 18 18:59 ArchivoX.pdf
+-rw-r--r-- 1 uids7031 1049089      134 Nov 11 19:42 EQUIPO1.txt
+-rw-r--r-- 1 uids7031 1049089       99 Nov 11 20:06 EQUIPO3.txt
+-rw-r--r-- 1 uids7031 1049089      127 Nov 18 20:40 EQUIPO4.txt
+-rw-r--r-- 1 uids7031 1049089       82 Nov 11 20:06 Equipo2.txt
+-rw-r--r-- 1 uids7031 1049089       11 Nov 11 20:06 Equipo_Ghost
+-rw-r--r-- 1 uids7031 1049089     1235 Oct 28 21:30 LICENSE
+-rw-r--r-- 1 uids7031 1049089       20 Oct 28 21:30 README.md
+-rw-r--r-- 1 uids7031 1049089    40056 Nov 18 18:59 Solano.PDF
+-rw-r--r-- 1 uids7031 1049089       49 Nov 18 20:40 archivo-hola.txt
+-rw-r--r-- 1 uids7031 1049089     1195 Nov 18 19:09 archivo-nuevo.txt
+-rw-r--r-- 1 uids7031 1049089       73 Nov 18 20:40 archivo-otrarama.txt
+-rw-r--r-- 1 uids7031 1049089 13723305 Nov 18 18:59 archivo1.pdf
+-rw-r--r-- 1 uids7031 1049089       92 Nov 18 19:09 archivo_texto_1.txt
+-rw-r--r-- 1 uids7031 1049089       39 Nov 18 19:09 archivo_texto_2.txt
+-rw-r--r-- 1 uids7031 1049089      721 Nov 18 19:09 archivo_texto_3.txt
+-rw-r--r-- 1 uids7031 1049089       62 Nov 18 20:40 archivo_texto_4.txt
+-rw-r--r-- 1 uids7031 1049089     1821 Nov 18 19:09 comandos-basicos.md
+-rw-r--r-- 1 uids7031 1049089       20 Nov 18 20:40 sdf.txt
+
+uids7031@GLLA762W MINGW64 ~/mi-repo-ejemplo-01 (PR-1)
+$ git branch
+* PR-1
+  equipo-1
+  equipo-2
+  equipo-3
+  main
+
+uids7031@GLLA762W MINGW64 ~/mi-repo-ejemplo-01 (PR-1)
+$ vit pr-conficto.txt
+bash: vit: command not found
+
+uids7031@GLLA762W MINGW64 ~/mi-repo-ejemplo-01 (PR-1)

@@ -1,7 +1,8 @@
-
 ----------------------
-Nombre:
-Apellido:
-Direccion:
+Apellido: Alejandro
+Nombre: Jose
 Telefono:
+Direccion: Algun lugar de la tierra
+---------------------
+Contacto:546556446
 ---------------------

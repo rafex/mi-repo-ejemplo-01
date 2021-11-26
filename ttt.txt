@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+usuario = "Perritos
+password = "sdfre65423"
+=
+caso_de_prueba=test
+
+otro=talcual
+>>>>>>> f43bd6da76092965a8c2620f811d8b481466519f

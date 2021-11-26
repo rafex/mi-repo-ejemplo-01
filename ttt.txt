@@ -1,2 +1,2 @@
-usuario = "Patito"
-password = "TYUGsd123"
+usuario = "Perritos"
+password = "sdfre65423"

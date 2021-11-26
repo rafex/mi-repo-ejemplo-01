@@ -1,6 +1,7 @@
-Continental Automotive
-Planta Tijera
-Guadalajara, Jalisco
-Texto
-Texto
-Texto
+
+----------------------
+Nombre:
+Apellido:
+Direccion:
+Telefono:
+---------------------

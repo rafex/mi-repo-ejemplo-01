@@ -1,2 +1,3 @@
-usuario = "Patito"
-password = "TYUGsd123"
+caso_de_prueba=test
+
+otro=talcual

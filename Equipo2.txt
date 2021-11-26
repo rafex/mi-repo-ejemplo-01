@@ -1,7 +1,7 @@
-
+[Label]
 ----------------------
-Nombre:
-Apellido:
-Direccion:
-Telefono:
+Nombre: $""
+Apellido:$""
+Direccion:$""
+Telefono:$""
 ---------------------

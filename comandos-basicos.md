@@ -85,7 +85,7 @@ git clone <URL>
 
 git clone git@github.com:rafex/mi-repo-ejemplo-01.git
 
-# comando reset 
+# comando reset
 
 git reset --soft HEAD
 
@@ -106,3 +106,48 @@ git push origin main
 git revert <UUID del commit>
 
 git revert dacfa9716f5c2e4038c14f5785bc01831191a8c8
+
+# borrado de ramas local
+
+git branch -d <Nombre de rama>
+
+> Borrado local forzado
+
+git branch -D <nombre de rama>
+
+# borrado de rama remoto
+
+git push origin --delete <Nombre de rama>
+
+### visualizar remotos
+```
+git remote -v
+```
+# agregar un remoto
+```shell
+git remote add <Nombre_remoto> <URL_REMOTO>
+```
+### cambiar el nombre del remoto
+```shell
+git remote rename <old_name> <new_name>
+```
+### hacer un pull de un remote especifico
+```shell
+git pull <remote> <rama>
+```
+### hacer un push a un remote especifico
+```shell
+git push <remote> <rama>
+```
+### crear un tag
+```shell
+git tag <nombre_tag> <rama>
+```
+### subir tag
+```shell
+git push <remote> <tag>
+```
+### listar tags
+```shell
+git tag -l
+```

@@ -1,0 +1,3 @@
+[submodule "examen-git-basico"]
+	path = examen-git-basico
+	url = git@github.com:YoavSalcedo/examen-git-basico.git
